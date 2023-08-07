@@ -1,0 +1,323 @@
+@import url('/css/fonts.css');
+@import url('/css/header.css');
+@import url('/css/greetings.css');
+@import url('/css/customers.css');
+@import url('/css/accounting.css');
+@import url('/css/manage_card_bank.css');
+
+.container {
+    max-width: 1160px;
+    margin: auto;
+}
+
+
+
+
+
+/* header start */
+
+.manage_window_top {
+    max-width: 560px;
+    height: 35px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #191C1F;
+    border-top-right-radius: 10px;
+    border-top-left-radius: 10px;
+}
+
+.manage_window_top_item {
+    display: flex;
+    align-items: center;
+    padding-left: 5px;
+    padding-right: 5px;
+}
+
+/* header window end */
+
+
+
+
+/* body start */
+
+.manage_window_body {
+    max-width: 560px;
+}
+
+.manage_window_body_container {
+    max-width: 500px;
+    margin: auto;
+}
+
+.manage_window_body__title {
+    margin-top: 35px;
+    margin-bottom: 25px;
+    font-family: inter;
+    font-weight: 700px;
+    font-size: 18px;
+}
+
+.manage_window_body_row {
+    display: flex;
+    justify-content: space-between;
+}
+
+
+
+ .manage_window_body_row_item {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 60px;
+    height: 200px;
+    background-color: green;
+    border-radius: 10px;
+}
+
+.manage_window_body_row_item:nth-child(4) {
+    background-color: #F3F3F3;
+}
+
+.manage_window_body_row_item:nth-child(2) {
+    background-color: #D8A4FF;
+}
+.manage_window_body_row_item:nth-child(3) {
+    background-color: #C7D4AE;
+}
+
+
+ .manage_window_body_row_item_wrap {
+    display: flex;
+    justify-content: space-between;
+    transform: rotate(-90deg);
+} 
+
+.manage_window_body_row_item__name1 {
+    padding-bottom: 125px;
+    padding-right: 88px;
+    font-family: inter;
+    font-weight: 700;
+    color: #000;
+}
+
+ .manage_window_body_row_item__name {
+    padding-bottom: 121px;
+    padding-right: 60px;
+    font-family: inter;
+    font-weight: 700;
+    color: #000;
+} 
+
+.manage_window_body_row_item__price {
+    font-family: inter;
+    font-weight: 700;
+    color: #000;
+}
+
+.manage_window_body_row_item__price-decor {
+    font-family: inter;
+    font-weight: 400;
+    font-size: 12px;
+    color: rgba(0, 0, 0, 0.40);
+}
+
+.manage_window_body_row_item__btn {
+    width: 40px;
+    height: 200px;
+    border-radius: 10px;
+}
+
+.manage_window_body_row_item__btn-link {
+    display: flex;
+    /* transform: rotate(-90deg); */
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* .manage_card {
+    max-width: 560px;
+    height: 580px;
+    -webkit-box-shadow: 4px 4px 19px 0px rgba(34, 60, 80, 0.2);
+    -moz-box-shadow: 4px 4px 19px 0px rgba(34, 60, 80, 0.2);
+    box-shadow: 4px 4px 19px 0px rgba(34, 60, 80, 0.2);
+}
+
+.manage_card_top {
+    background-color: #191C1F;
+    border-top-right-radius: 10px;
+    border-top-left-radius: 10px;
+}
+
+.manage_card_top_item {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 5px;
+}
+
+.manage_card_top_item_icons {
+    display: flex;
+    align-items: center;
+}
+
+
+
+/* body card */
+
+/* .manage_card__container {
+    max-width: 500px;
+    margin: auto;
+    display: flex;
+}
+
+.manage_card__title {
+    margin-top: 35px;
+    margin-bottom: 25px;
+}
+
+.manage_card__title-text {
+    font-family: Inter;
+    font-size: 24px;
+    font-weight: 700;
+}
+
+/* banck card */
+
+/* .manage_card_bank {
+    width: 285px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.manage_card_bank_person {
+    border-radius: 10px;
+    background-color: #E1E7E9;
+}
+
+.manage_card_bank_person_wrap {
+    position: relative;
+    max-width: 260px;
+    margin: auto;
+}
+
+.manage_card_bank_person_position1 {
+    position: absolute;
+    left: 190px;
+    top: 23px
+     */
+} */
+
+/* .manage_card_bank_person_position2 {
+    position: absolute;
+    left: 220px;
+    top: 60px;
+}
+
+.manage_card_bank_person_top {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-top: 25px;
+    margin-bottom: 45px;
+} */
+
+/* card body */
+
+
+
+/* .manage_card_bank_person_body {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.manage_card_bank_person_top__title {
+    font-family: Inter;
+    font-size: 18px;
+    font-weight: 700;
+}
+
+.manage_card_bank_person_body {
+    padding-bottom: 30px;
+}
+
+.manage_card_bank_person_body__number {
+    font-family: Inter;
+    font-size: 12px;
+    font-weight: 700;
+} */
+
+
+
+/* card bottom */
+
+
+/* .manage_card_bank_person_bottom_wrap {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-end;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    max-width: 260px;
+    margin: auto;
+}
+
+.manage_card_bank_person_bottom_user__title {
+    font-family: Inter;
+    font-size: 12px;
+    font-weight: 600;
+    padding-bottom: 5px;
+    color: #FFF;
+    opacity: 0.6;
+}
+
+.manage_card_bank_person_bottom {
+    border-bottom-right-radius: 10px;
+    border-bottom-left-radius: 10px;
+    background-color: black;
+}
+
+.manage_card_bank_person_bottom_user__name {
+    font-family: Inter;
+    font-size: 16px;
+    font-weight: 700;
+    color: #FFF;
+}
+
+.manage_card_bank_person_bottom_number__text {
+    font-family: Inter;
+    font-size: 12px;
+    font-weight: 400;
+    color: #FFF;
+}
+
+
+.manage_card_item {
+    width: 20px;
+    height: 60px;
+    background-color: green;
+} */ */

@@ -1,0 +1,245 @@
+.greetings {
+    position: relative;
+}
+
+.greetings_wrap {
+    position: relative;
+}
+
+.greetings_title {
+    position: relative;
+    text-align: center;
+    margin-top: 60px;
+    margin-bottom: 30px;
+
+    animation: bounce; /* referring directly to the animation's @keyframe declaration */
+    animation-duration: 2s; /* don't forget to set a duration! */
+
+    animate__zoomInUp
+}
+
+.greetings_title__text {
+    color: #000;
+    font-family: Inter;
+    font-size: 80px;
+    font-weight: 700;
+    line-height: 96px;
+}
+
+.greetings_title__text_decor {
+    color: #000;
+    font-family: Inter;
+    font-size: 80px;
+    font-style: italic;
+    font-weight: 700;
+    line-height: 96px;
+}
+
+.greetings_subtitle {
+    text-align: center;
+    margin-bottom: 25px;
+}
+
+.greetings_subtitle__text {
+    margin: auto;
+    max-width: 575px;
+    color: #000;
+    text-align: center;
+    font-family: Inter;
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 32px;
+    padding-bottom: 45px;
+}
+
+.greetings_btn {
+    margin: auto;
+    display: flex;
+    align-items: center;
+    gap: 25px;
+    background-color: #000;
+    padding: 15px 30px 15px 30px;
+    border-radius: 35px;
+}
+
+.greetings_btn__link {
+    font-family: Inter;
+    font-size: 15px;
+    font-weight: 700;
+    color: #fff;
+}
+
+.greetings_label {
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+}
+
+.greetings_label_system {
+    display: flex;
+    gap: 10px;
+}
+
+.greetings_label_browser {
+    display: flex;
+    gap: 10px;
+}
+
+.greetings_label_btn {
+    background: none;
+}
+
+.greetings_label_title {
+    padding-top: 10px;
+    text-align: center;
+    font-family: Inter;
+    font-size: 9px;
+    font-style: normal;
+    font-weight: 400;
+}
+
+.greetings_label_icons__img {
+    filter: grayscale(100%);
+    -webkit-filter: grayscale(100%);
+    -moz-filter: grayscale(100%);
+}
+
+.greetings_label_icons__img:hover {
+    filter: grayscale(0%);
+    -webkit-filter: grayscale(0%);
+    -moz-filter: grayscale(0%);
+    transition: all 0.3s;
+}
+
+.decor_position_title {
+    position: absolute;
+    top: -15px;
+    left: 0px;
+    display: none;
+}
+
+.greetings_position_background {
+    position: absolute;
+    left: -180px;
+    top: 20px;
+}
+
+.greetings_position_background2 {
+    position: absolute;
+    left: 50px;
+    top: 510px
+}
+
+.greetings_position_background3 {
+    position: absolute;
+    right: -181px;
+    top: 500px;
+}
+
+.greetings_photo {
+    /* position: relative; */
+}
+
+.greetings_photo {
+    margin-top: 50px;
+    margin-bottom: 135px;
+}
+
+@media (max-width: 1160px) {
+    .greetings_wrap {
+        padding-left: 10px;
+        padding-right: 10px;
+    } 
+
+    .greetings_title__text {
+        position: relative;
+    }
+
+    .greetings_title__text_decor {
+        position: relative;
+    }
+
+    .greetings_subtitle__text {
+        position: relative;
+    }
+
+    .greetings_btn {
+        position: relative;
+    }
+}
+
+@media (max-width: 1105px) {
+    .greetings_photo__img {
+        width: 100%;
+    }
+}
+
+@media (max-width: 620px) {
+    .greetings_title__text {
+        font-size: 50px;
+        line-height: 60px;
+    }
+
+    .greetings_title__text_decor {
+        font-size: 50px;
+        line-height: 60px;
+    }
+
+    .greetings_subtitle__text {
+        font-size: 18px;
+        line-height: 30px;
+    }
+
+    .greetings_position_background {
+        position: absolute;
+        left: 0px;
+        bottom: 200px;
+    }
+}
+
+@media (max-width: 380px) {
+    .greetings_title__text {
+        line-height: 44px;
+        font-size: 40px;
+    }
+
+    .greetings_title__text_decor {
+        line-height: 44px;
+        font-size: 40px;
+    }
+
+    .greetings_subtitle__text {
+        font-size: 18px;
+        line-height: 25px;
+    }
+
+    .greetings_btn {
+        padding: 15px 20px 15px 20px;
+    }
+
+    .greetings_btn__link {
+        font-size: 15px;
+    }
+
+    .greetings_label {
+        display: flex;
+        flex-direction: column;
+        gap: 60px;
+    }
+
+    
+}
+
+@media (max-width: 310px) {
+    .greetings_title__text {
+        line-height: 40px;
+        font-size: 35px;
+    }
+
+    .greetings_title__text_decor {
+        line-height: 40px;
+        font-size: 35px;
+    }
+}

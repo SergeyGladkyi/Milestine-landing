@@ -1,0 +1,141 @@
+.header-popup {
+    position: relative;
+    background-color: #CAEF45;
+    text-align: center;
+    display: none;
+}
+
+.header-popup__text {
+    padding-top: 15px;
+    padding-bottom: 15px;
+    font-family: Inter;
+    font-size: 15px;
+    font-style: italic;
+    font-weight: 500;
+}
+
+.header-popup__close-btn {
+    position: absolute;
+    right: 25px;
+    top: 15px;
+    background-color: #CAEF45;
+    font-family: Inter;
+    font-size: 15px;
+}
+
+.header-wrap {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-top: 30px;
+    padding-bottom: 30px;
+}
+
+.header_logo__img {
+    animation: bounce; /* referring directly to the animation's @keyframe declaration */
+  animation-duration: 400ms; /* don't forget to set a duration! */
+}
+
+.header_logo__img:root {
+    --animate-duration: 5s;
+    --animate-delay: 5s;
+}
+
+.nav {
+    display: flex;
+    gap: 40px;
+}
+
+.nav__link {
+    color: #222;
+    font-family: Inter;
+    font-size: 14px;
+    font-weight: 400;
+}
+
+.header_account {
+    display: flex;
+    gap: 20px;
+}
+
+
+
+.header_account_basket-btn {
+    display: flex;
+    align-items: center;
+    gap: 5px;
+    background-color: #fff;
+}
+
+.header_account_basket-btn__link {
+    display: flex;
+    gap: 5px;
+    font-family: Inter;
+    font-size: 14px;
+    font-weight: 400;
+    color: #000;
+}
+
+.header_account_basket-btn_wrap {
+    width: 18px;
+    border-radius: 10px;
+    background: rgba(250, 122, 104, 0.05);
+
+}
+
+.header_account_basket-btn__count {
+    color: #FA7A68;
+    text-align: center;
+    font-family: Inter;
+    font-size: 14px;
+    font-weight: 700;
+}
+
+.header_account_login {
+    background: none;
+}
+
+.header_account_login__link {
+    color: #222;
+    font-family: Inter;
+    font-size: 15px;
+    font-weight: 400;
+}
+
+.header_account_singup {
+    background-color: #000;
+    padding: 15px 20px 15px 20px;
+    border-radius: 70px;
+}
+
+.header_account_singup__link {
+    color: #FFF;
+    font-family: Inter;
+    font-size: 15px;
+    font-weight: 400;
+}
+
+@media (max-width: 1160px) {
+    .header-wrap {
+        padding-left: 10px;
+        padding-right: 10px;
+    }
+}
+
+@media (max-width: 975px) {
+    .nav {
+        display: none;
+    }
+}
+
+@media (max-width: 455px) {
+    .header_account_login {
+        display: none;
+    }
+}
+
+@media (max-width: 395px) {
+    .header_account_singup {
+        display: none;
+    }
+}
