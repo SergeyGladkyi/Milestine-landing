@@ -1,0 +1,119 @@
+.tools {
+    margin-bottom: 180px;
+}
+
+.tools_top {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 85px;
+}
+
+.tools_top__title {
+    max-width: 475px;
+    color: #000;
+    font-family: Inter;
+    font-size: 53px;
+    font-weight: 700;
+    line-height: 64px; /* 120.755% */
+    letter-spacing: -1.12px;
+}
+
+.tools_top__title-decor {
+    font-style: italic;
+}
+
+.tools_top__btn {
+    padding: 15px 25px;
+    display: flex;
+    align-items: center;
+    gap: 20px;
+    border-radius: 36px;
+    background-color: #000;
+}
+
+.tools_top__btn-link {
+    color: #FFF;
+    font-family: Inter;
+    font-size: 15px;
+    font-weight: 700;
+    text-transform: uppercase;
+}
+
+.tools_bottom {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    gap: 40px;
+}
+
+.tools_bottom_item {
+    width: 260px;
+    border-radius: 8px;
+    box-shadow: 0px 10px 70px 0px rgba(83, 83, 83, 0.07);
+    text-align: center;
+}
+
+.tools_bottom_item__img {
+    margin-top: 25px;
+    margin-bottom: 10px;
+}
+
+.tools_bottom_item__subtitle {
+    color: #000;
+    font-family: Inter;
+    font-size: 19px;
+    margin-bottom: 30px;
+}
+
+
+@media (max-width: 1200px) {
+    .tools_bottom {
+        grid-template-columns: 1fr 1fr 1fr;
+    }
+
+    .tools_bottom_item {
+        width: 100%;
+    }
+}
+
+
+@media (max-width: 1160px) {
+    .tools_wrap {
+        margin-left: 10px;
+        margin-right: 10px;
+    }
+
+    .tools_bottom {
+        margin-left: 10px;
+        margin-right: 10px;
+    }
+
+}
+
+@media (max-width: 915px) {
+    .tools_bottom {
+        grid-template-columns: 1fr 1fr;
+     }
+}
+
+@media (max-width: 775px) {
+    .tools_top {
+        flex-direction: column;
+        gap: 30px;
+    }
+}
+
+@media (max-width: 515px) {
+    .tools_top__title {
+        font-size: 34px;
+        line-height: 36px; /* 105.882% */
+        letter-spacing: -0.72px;
+        text-align: center;
+    }
+}
+
+@media (max-width: 400px) {
+    .tools_bottom {
+        grid-template-columns: 1fr;
+     }
+}

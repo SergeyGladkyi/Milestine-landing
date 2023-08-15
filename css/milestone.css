@@ -1,0 +1,172 @@
+.milestone {
+    margin-bottom: 180px;
+}
+
+.milestone_top {
+    text-align: center;
+    margin-bottom: 65px;
+}
+
+.milestone_top__title {
+    color: #000;
+    font-family: Inter;
+    font-size: 48px;
+    font-weight: 700;
+    line-height: 64px;
+    letter-spacing: -1.12px;
+    margin-bottom: 20px;
+}
+
+.milestone_top__title-decor {
+    color: #000;
+    font-family: Inter;
+    font-size: 48px;
+    font-style: italic;
+    font-weight: 700;
+    line-height: 64px;
+    letter-spacing: -1.12px;
+}
+
+.milestone_top__subtitle {
+    max-width: 520px;
+    margin: auto;
+    color: #000;
+    text-align: center;
+    font-family: Inter;
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 32px;
+}
+
+.milestone_row {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.milestone_row_milestone_top {
+    text-align: center;
+    margin-bottom: 35px;
+}
+
+.milestone_row_milestone_item {
+    max-width: 420px;
+    height: 425px;
+    border-radius: 13px;
+    background: #FFF;
+    box-shadow: 0px 10px 70px 0px rgba(83, 83, 83, 0.07);
+}
+
+.milestone_row_milestone_item_wrap {
+    padding: 40px;
+}
+
+.milestone_row_milestone_item__title {
+    color: #000;
+    font-family: Inter;
+    font-size: 15px;    
+    font-weight: 700;
+    text-transform: uppercase;
+    margin-bottom: 35px;
+}
+
+.milestone_row_milestone_item__list-text {
+    display: flex;
+    align-items: center;
+    margin-bottom: 20px;
+    color: #000;
+    font-family: Inter;
+    font-size: 18px;
+    font-weight: 500;
+    background: url('/img/milestone_row_milestone_item__list-text_ico.png') no-repeat left;
+    padding-left: 45px;
+    height: 35px;
+}
+
+.milestone_row_softwares_top {
+    text-align: center;
+    margin-bottom: 35px;
+}
+
+.milestone_row_softwares_top__title {
+    color: #000;
+    font-family: Inter;
+    font-size: 29px;
+    font-weight: 700;
+}
+
+.milestone_row_softwares_item {
+    max-width: 420px;
+    height: 425px;
+    border-radius: 13px;
+    background: #FFF;
+    box-shadow: 0px 10px 70px 0px rgba(83, 83, 83, 0.07);
+}
+
+.milestone_row_softwares_item_wrap {
+    padding: 40px;
+}
+
+.milestone_row_softwares_item__title {
+    color: #000;
+    font-family: Inter;
+    font-size: 15px;    
+    font-weight: 700;
+    text-transform: uppercase;
+    margin-bottom: 35px;
+}
+
+.milestone_row_softwares_item__list-text {
+    display: flex;
+    align-items: center;
+    margin-bottom: 20px;
+    color: #000;
+    font-family: Inter;
+    font-size: 18px;
+    font-weight: 500;
+    background: url('/img/milestone_row_softwares_item__list-text_ico.png') no-repeat left;
+    padding-left: 45px;
+    height: 35px;
+}
+
+
+
+@media (max-width: 1160px) {
+    .milestone_wrap {
+        padding-left: 10px;
+        padding-right: 10px;
+    }
+}
+
+@media (max-width: 960px) {
+    .milestone_row {
+        flex-direction: column;
+        gap: 265px;
+        /* margin-left: 10px;
+        margin-right: 10px; */
+    }
+}
+
+@media (max-width: 515px) {
+    .milestone_top__title {
+        font-size: 31px;
+    }
+
+    .milestone_top__title-decor {
+        font-size: 31px;
+    }
+
+    .milestone_top__subtitle {
+        font-size: 20px;
+        font-weight: 400;
+        line-height: 32px; 
+    }
+
+    .milestone_row_milestone_item__list-text {
+        font-size: 16px;
+    }
+
+    .milestone_row_softwares_item__list-text {
+        font-size: 16px;
+    }
+}
